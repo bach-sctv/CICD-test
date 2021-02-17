@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #606170;
+    --secondary-color: #1ab394;
+    --primary-text-color: #B2B3C2;
+    --secondary-text-color: #a7a7a7;
+    --inverted-text-color: #ffffff;
+    --primary-hover-color: #18a689;
+    --selection-border-color: #ffffff;
+    --primary-icon-color: #B2B3C2;
+    --primary-bg-color: #16171E;
+    --secondary-bg-color: #16171E;
+    --highlight-bg-color: #EBF4FD;
+    --primary-border-color: #353646;
+    --secondary-border-color: #ddd;
+    --highlight-border-color: #67A6F2;
+    --error-color: #ed5565;
+}
+
+
+
+/*!* Designer shadow style *!*/
+
+.svd_container .svd-light-bg-color {
+    background-color: var(--primary-bg-color);
+}
+.svd_container .svd_content .svd_survey_designer .svd_editors .svd_questions_editor {
+    background-color: #ffffff;
+}
+.navbar-default {
+    border-color: var(--primary-border-color);
+}
+.panel {
+    border-radius: 0px;
+}
+.svd_container .svd-tab-text:hover,
+.svd_container .svd-tab-text:focus {
+    border-bottom-color: var(--primary-border-color);
+}
+.btn-primary:hover {
+    background-color: unset;
+    border-color: unset;
+}
+.btn-primary:hover {
+    color: var(--primary-text-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-border-color);
+}
+.svd_container .svd_questions_editor .svd_question:hover {
+    border-width: 4px;
+    border-color: var(--highlight-border-color);
+    background-color: var(--highlight-bg-color);
+}

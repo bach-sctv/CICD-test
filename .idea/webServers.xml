@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6e5bd76a-e2f0-4af8-8411-f86c7b2930c2" name="fs_surveyjs" url="http://fs_surveyjs">
+        <fileTransfer host="fs_surveyjs" port="22" rootFolder="/home/showcase/surverJS" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
